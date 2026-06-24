@@ -1,0 +1,30 @@
+LocationSimulator
+Copyright (C) 2026 Eirias
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License v3.0. See the LICENSE file for the
+full license text.
+
+================================================================================
+Third-party software and attributions
+================================================================================
+
+1. go-ios — https://github.com/danielpaulus/go-ios
+   License: MIT, Copyright (c) 2019 danielpaulus
+
+   The iOS 17+ device backend is driven by the `go-ios` command-line tool.
+   - On the `main` branch, `go-ios` is an external dependency that the user
+     installs separately; it is NOT redistributed with this project.
+   - On the `feature/all-in-one` branch, the `go-ios` binary is bundled inside
+     the app. Per the MIT License, its copyright and permission notice are
+     shipped alongside the binary at
+     Packages/Other/Services/GoIOSKit/Sources/GoIOSKit/Resources/go-ios.LICENSE
+     and must travel with the binary in any redistribution.
+
+2. Schlaubischlump/LocationSimulator — https://github.com/Schlaubischlump/LocationSimulator
+   License: GPLv3
+
+   The original macOS LocationSimulator that inspired this rebuild. Some UI
+   concepts were ported from it (e.g. the location-search popup); see the
+   in-source notes (e.g. MapFeature/LocationSearch.swift). This project remains
+   under GPLv3 in keeping with that heritage.
