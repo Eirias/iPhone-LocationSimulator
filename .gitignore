@@ -1,0 +1,13 @@
+# Xcode / SPM
+*.xcodeproj
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+# go-ios runtime state (downloaded DDIs etc.)
+devimages/
+
+# internal notes — not for public repo
+docs/internal/
